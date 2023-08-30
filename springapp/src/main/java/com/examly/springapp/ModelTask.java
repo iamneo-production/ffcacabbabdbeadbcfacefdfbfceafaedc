@@ -9,6 +9,7 @@ public class ModelTask {
     String taskHolderName;
     String taskDate;
     String taskName;
+    String houseno;
     public int getTaskId() {
         return taskId;
     }
@@ -40,7 +41,11 @@ public class ModelTask {
         this.taskStatus = taskStatus;
     }
     String taskStatus;
-   
-
+    public string getHouseno(){
+        return houseno;
+    }
+    public void setHouseno(String houseno) {
+        this.houseno = houseno;
+    }
     
 }
