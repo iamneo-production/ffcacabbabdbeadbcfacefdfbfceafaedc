@@ -42,11 +42,13 @@ public class ModelTask {
         this.taskStatus = taskStatus;
     }
     String taskStatus;
-    public string getHouseno(){
-        return houseno;
-    }
-    public void setHouseno(String houseno) {
-        this.houseno = houseno;
-    }
+   public String getHouseno(){
+    return houseno;
+   }
+   public void setHouseno(String houseno) {
+    this.houseno = houseno;
+}
+
+
     
 }
